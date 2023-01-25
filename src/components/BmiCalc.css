@@ -1,0 +1,48 @@
+.main_div{
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 1em;
+    width: 45%;
+    margin: auto;
+    color: white;
+    background-color: rgb(63, 63, 196);
+    box-shadow: 7px 7px rgb(175, 167, 167);
+}
+.inner_div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.input_div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+label{
+    display: block;
+    margin: 0.2em 1em;
+    font-weight: 500;
+}
+input{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    border: none;
+    outline: none;
+}
+.btn_div{
+    margin-top: 1em;
+}
+.btn_div button{
+    padding: 0.7em 1.8em;
+    border-radius: 1.8em;
+    border: none;
+    background-color: rgb(43, 149, 103);
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.btn_div button:disabled{
+    background-color: silver;
+    color: black;
+}
